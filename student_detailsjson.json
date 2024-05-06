@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "#####",
+ "creation": "2024-04-29 06:21:49.114602",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_xocn",
+  "section_break_xe",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "joining_date",
+  "gender",
+  "column_break_vmzi",
+  "check",
+  "student_email_address",
+  "role_of_student",
+  "blood_group",
+  "nationality",
+  "date_of_birth"
+ ],
+ "fields": [
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Read Only",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "student_email_address",
+   "fieldtype": "Data",
+   "label": "Student Email Address",
+   "options": "Email"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth "
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender ",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Select",
+   "label": "Blood Group",
+   "options": "A+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-"
+  },
+  {
+   "fieldname": "joining_date",
+   "fieldtype": "Date",
+   "label": "Joining Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "section_break_xe",
+   "fieldtype": "Section Break",
+   "label": "Student Details"
+  },
+  {
+   "fieldname": "tab_break_xocn",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_vmzi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "role_of_student",
+   "fieldtype": "Data",
+   "label": "Role of Student "
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-06 02:04:04.812643",
+ "modified_by": "Administrator",
+ "module": "task",
+ "name": "Student Details",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
